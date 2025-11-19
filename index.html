@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio | Enrique Hernández</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bfd705b8af.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">Enrique <span>Hernández</span></div>
+        <ul class="nav-links">
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Habilidades">Habilidades</a></li>
+          <li><a href="#Proyectos">Proyectos</a></li>
+        </ul>
+      </nav>
+
+      
+      <div class="theme-menu">
+        <button id="mainThemeIcon" class="theme-btn">
+         <i class="fa-regular fa-moon"></i>
+        </button>
+
+        <div id="themeOptions" class="theme-options hidden">
+          <button data-theme="light"><i class="fa-regular fa-sun"></i></button>
+          <button data-theme="dark"><i class="fa-regular fa-moon"></i></button>
+          <button data-theme="retro"><i class="fa-solid fa-gamepad"></i></button>
+          <button data-theme="cyberpunk"><i class="fa-solid fa-robot"></i></button>
+          <button data-theme="paper"><i class="fa-regular fa-file-lines"></i></button>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+      <!-- 🏠 Inicio -->
+      <section id="Inicio" class="hero">
+        <div class="hero-content">
+          <div class="hero-text fade-in">
+            <h1>Enrique Hernández</h1>
+            <h2>QA Manual Tester y Desarrollo web</h2>
+            <p>
+              Soy Ingeniero en Sistemas Computacionales. Me apasiona aprender
+              cosas nuevas, mejorar habilidades, trabajar en equipo y seguir
+              aprendiendo constantemente. Una razón por la cual me adentré en el
+              desarrollo tecnológico.
+            </p>
+
+            <div class="social-links fade-in">
+              <a
+                href="https://github.com/josehernandeztrujillo78-arch"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jose-enrique-hernandez-a36b7438b/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/jose_hernandez229/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="mailto:josehernandeztrujillo78@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+
+            <a href="#contacto" class="btn">Contáctame</a>
+          </div>
+
+          <div class="hero-image fade-in" style="transition-delay: 0.8s;">
+            <img src="imagenes/io.jpg" alt="Foto de perfil" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ⚙️ Habilidades -->
+      <section id="Habilidades" class="habilidades">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container fade-in">
+          <ul class="skills-list">
+            <li><i class="fab fa-html5" style="color: #e44d26;"></i> HTML</li>
+            <li><i class="fab fa-css3-alt" style="color: #264de4;"></i> CSS</li>
+            <li><i class="fab fa-js" style="color: #f7df1e;"></i> JavaScript</li>
+            <li><i class="fab fa-bootstrap" style="color: #7952b3;"></i> Bootstrap</li>
+            <li><i class="fab fa-git-alt" style="color: #f34f29;"></i> Git</li>
+            <li><i class="fab fa-github" style="color: #000;"></i> GitHub</li>
+            <li><i class="fab fa-python" style="color: hsl(64, 91%, 46%);"></i>Python</li>
+            <li><img src="imagenes/cisco.jpg" width="40px"  height="40"/> Cisco</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 🧱 Proyectos -->
+      <section id="Proyectos" class="projects">
+        <h2 class="section-title">Proyectos Personales</h2>
+
+        <div class="slider-container">
+          <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+
+          <div class="projects-slider">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="imagenes/proyecto1.png" alt="Proyecto 1" />
+              </div>
+              <div class="project-info">
+                <h3>Diseño Pagina de compras</h3>
+                <p>Diseño pagina web para compra de celulares.</p>
+                <div class="project-tech">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://josehernandeztrujillo78-arch.github.io/tienda-smartphones/"><i class="fas fa-link"></i> Demo</a>
+                  <a href="https://github.com/josehernandeztrujillo78-arch/tienda-smartphones"><i class="fab fa-github"></i> Código</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="imagenes/app de agendar.png" alt="Proyecto 2" />
+              </div>
+              <div class="project-info">
+                <h3>App de Reservas con registro</h3>
+                <p>Aplicación web de consulta medica etc, para gestionar reservas en línea usando Firebase.
+                <p>Aplicación web para gestionar reservas en línea usando Firebase.
+                  registrate para poder interactuar puedes poner correo ficticio o real 
+                </p>
+                <div class="project-tech">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://app-reservas-eta.vercel.app/"><i class="fas fa-link"></i> Demo</a>
+                  <a href="https://github.com/josehernandeztrujillo78-arch/app-reservas"><i class="fab fa-github"></i> Código</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="imagenes/comida.png" alt="Proyecto 3" />
+              </div>
+              <div class="project-info">
+                <h3>Pagina web de compras con carrito usando whatsApp</h3>
+                <p>Diseño simple de e-commerce con carrito de compras.</p>
+                <div class="project-tech">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://josehernandeztrujillo78-arch.github.io/comidaparati/" target="_blank"><i class="fas fa-link"></i> Demo</a>
+                  <a href="https://github.com/josehernandeztrujillo78-arch/comidaparati" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+              </div>
+            </div>
+
+                <!-- Proyecto 4 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="imagenes/semaforos.png" alt="Proyecto 4" />
+              </div>
+              <div class="project-info">
+                <h3>Simulacion cambio de luces en semaforos</h3>
+                <p>Simulacion de un sistema de transito con semaforos solo pueden ver un video donde se
+                  distorsiona el tiempo en semaforos y los autos reducen su velocidad por defecto de grabacion
+                  El proyecto en python la simulacion es exitosa de acuerdo a tiempo sincronizacion y velocidad
+                </p>
+                <div class="project-tech">
+                  <span>python</span><span>html</span><span>pygame</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://josehernandeztrujillo78-arch.github.io/simulacion-semaforos/" target="_blank"><i class="fas fa-link"></i> Demo</a>
+                  <a href="https://github.com/josehernandeztrujillo78-arch/simulacion-semaforos" target="_blank"><i class="fab fa-github"></i> Código</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2025 Enrique Hernández - Portafolio - Todos los derechos reservados</p>
+        <div class="social-links">
+          <a href="https://github.com/josehernandeztrujillo78-arch" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jose-enrique-hernandez-a36b7438b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/jose_hernandez229/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:josehernandeztrujillo78@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
